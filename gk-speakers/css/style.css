@@ -1,0 +1,50 @@
+/**
+ *
+ * -------------------------------------------
+ * GK Speakers Plugin CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+ 
+/* Information block under options */
+.gk-info {
+	border-top: 1px solid #eee;
+	padding-top: 5px;
+}
+
+.gk-info li {
+	padding-left: 25px;
+	position: relative;
+}
+
+.gk-info li:before {
+	background: #333;
+	-webkit-border-radius: 50%;
+	   -moz-border-radius: 50%;
+			border-radius: 50%;
+	content: "";
+	display: block;
+	float: left;
+	height: 6px;
+	left: 8px;
+	position: absolute;
+	top: 5px;
+	width: 6px;
+}
+ 
+.gk-keydown,
+.gk-keydown2 {
+	font-weight: bold;
+	text-transform: lowercase;
+}
+
+/* Additional info for WPML users */
+#gk-additional-info {
+	background-color: #fffef4;
+	border: 1px solid #eae8cc;
+	color: #555;
+	margin-bottom: 18px;
+	padding: 8px 35px 8px 14px;
+	width: 60%;
+}
